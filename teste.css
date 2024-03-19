@@ -1,0 +1,89 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #E4E9ED;
+}
+
+.list {
+    display: flex;
+    margin-left: 700px;
+    width: 300px;
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.list {
+    font-weight: bold;
+}
+.nav_home:hover {
+    color:#536744;
+    transform: scale(1.1);
+}
+
+.nav_sobre:hover {
+    color:#536744;
+    transform: scale(1.1);
+}
+
+.nav_fb:hover {
+    color:#536744;
+    transform: scale(1.1);
+}
+
+.nav_simulador:hover {
+    color:#536744;
+    transform: scale(1.1);
+}
+
+.nav_contato:hover {
+    color:#536744;
+    transform: scale(1.1);
+}
+
+.container_reinvente {
+    margin-left: 40px;
+    width: 100%;
+}
+
+.reinvente {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.paragrafo {
+    color: #536744;
+    margin-left: 40px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.container_button {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.button_saiba {
+    border-radius: 5px;
+    border: solid #536744;
+    background-color: transparent;
+    color:#536744;
+    font-size: 15px;
+    width: 120px;
+    height: 40px; 
+}
+
+.button_simulacao {
+    margin-left: 25px;
+    border-radius: 5px;
+    border: solid #536744;
+    background-color: transparent;
+    color:#536744;
+    font-size: 15px;
+    width: 190px;
+    height: 40px;
+}
