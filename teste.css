@@ -1,8 +1,12 @@
 body {
     padding: 0%;
     margin: 0%;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #E4E9ED;
+}
+
+.logo {
+    width: 1vh;
 }
 
 .list {
@@ -20,28 +24,29 @@ body {
 .list {
     font-weight: bold;
 }
+
 .nav_home:hover {
-    color:#536744;
+    color: #536744;
     transform: scale(1.1);
 }
 
 .nav_sobre:hover {
-    color:#536744;
+    color: #536744;
     transform: scale(1.1);
 }
 
 .nav_fb:hover {
-    color:#536744;
+    color: #536744;
     transform: scale(1.1);
 }
 
 .nav_simulador:hover {
-    color:#536744;
+    color: #536744;
     transform: scale(1.1);
 }
 
 .nav_contato:hover {
-    color:#536744;
+    color: #536744;
     transform: scale(1.1);
 }
 
@@ -67,14 +72,15 @@ body {
     flex-direction: row;
     margin-left: 40px;
 }
+
 .button_saiba {
     border-radius: 5px;
     border: solid #536744;
     background-color: transparent;
-    color:#536744;
+    color: #536744;
     font-size: 15px;
     width: 120px;
-    height: 40px; 
+    height: 40px;
 }
 
 .button_simulacao {
@@ -82,7 +88,7 @@ body {
     border-radius: 5px;
     border: solid #536744;
     background-color: transparent;
-    color:#536744;
+    color: #536744;
     font-size: 15px;
     width: 190px;
     height: 40px;
